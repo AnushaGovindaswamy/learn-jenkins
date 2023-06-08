@@ -5,8 +5,9 @@ pipeline {
      }
  }
  stages {
-  steps {
-   step('one') {
+
+   stage('one') {
+   steps {
    sh 'echo hello anusha welcome'
    }
   }
