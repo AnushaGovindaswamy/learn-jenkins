@@ -23,7 +23,7 @@ pipeline {
   }
   }
   triggers {
-  cron('H/2 * * * *')
+  pollscm('H/2 * * * *')
   }
   options {
   ansicolor('xterm')
