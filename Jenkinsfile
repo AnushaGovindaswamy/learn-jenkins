@@ -30,12 +30,12 @@ pipeline {
   }
   environment
   {
-     Sample_url=www.google.com
+     Sample_url= "www.google.com"
 
     }
   parameters
   {
-    string(name:'PERSON',defaultvalue:'MR.JENKINS',description:'choose person')
+    string(name:'PERSON', defaultvalue:'MR.JENKINS', description:'choose person')
   }
 
   stages {
